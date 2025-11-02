@@ -1,3 +1,9 @@
+
+GAPNI ESHIT KOMPYUTERING KUCHLI BO'LSA KIRIB KO'R: https://sarvarcraft.vercel.app/
+
+
+
+
 Minecrat — 1ga1 kopiya
 
 Oddiy, toza va tushunarli README sizning sayt repo'ingiz uchun.
