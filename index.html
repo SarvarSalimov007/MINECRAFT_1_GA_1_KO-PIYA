@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft - 1ga1 Ko'piya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="crosshair"></div>
+        <div id="inventory">
+            <div class="inventory-slot active" data-block="grass">
+                <div class="block-preview grass-block"></div>
+                <span class="slot-number">1</span>
+            </div>
+            <div class="inventory-slot" data-block="dirt">
+                <div class="block-preview dirt-block"></div>
+                <span class="slot-number">2</span>
+            </div>
+            <div class="inventory-slot" data-block="stone">
+                <div class="block-preview stone-block"></div>
+                <span class="slot-number">3</span>
+            </div>
+            <div class="inventory-slot" data-block="wood">
+                <div class="block-preview wood-block"></div>
+                <span class="slot-number">4</span>
+            </div>
+            <div class="inventory-slot" data-block="sand">
+                <div class="block-preview sand-block"></div>
+                <span class="slot-number">5</span>
+            </div>
+            <div class="inventory-slot" data-block="glass">
+                <div class="block-preview glass-block"></div>
+                <span class="slot-number">6</span>
+            </div>
+            <div class="inventory-slot" data-block="cobblestone">
+                <div class="block-preview cobblestone-block"></div>
+                <span class="slot-number">7</span>
+            </div>
+            <div class="inventory-slot" data-block="leaves">
+                <div class="block-preview leaves-block"></div>
+                <span class="slot-number">8</span>
+            </div>
+            <div class="inventory-slot" data-block="coal">
+                <div class="block-preview coal-block"></div>
+                <span class="slot-number">9</span>
+            </div>
+        </div>
+        <div id="instructions">
+            <p><strong>W, A, S, D</strong> - Yurish</p>
+            <p><strong>Space</strong> - Sakrash</p>
+            <p><strong>Mouse</strong> - Qarash</p>
+            <p><strong>F5</strong> - Kamera almashtirish (1st/3rd person)</p>
+            <p><strong>Chap bosish (Click)</strong> - Blok buzish</p>
+            <p><strong>O'ng bosish (Click)</strong> - Blok qo'yish</p>
+            <p><strong>1-9</strong> - Blok tanlash</p>
+            <p><strong>ESC</strong> - Mouse ni qulfdan chiqarish</p>
+        </div>
+        <div id="coordinates">
+            <div>X: <span id="pos-x">0</span></div>
+            <div>Y: <span id="pos-y">0</span></div>
+            <div>Z: <span id="pos-z">0</span></div>
+        </div>
+    </div>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="game.js"></script>
+</body>
+</html>
+
